@@ -7,13 +7,13 @@ This is a small web application built with the help of **Streamlit** a python-ba
 </p>
 `Steps that I have followed to build this project`:
 
-1. **`Data Cleaning`** : Removed the unncessary columns and rows from the dataset which were not playing any significant role in price prediction and may also decrease the accuracy of the model.
+1. **`Data Cleaning`** : Removed the unnecessary columns and rows from the dataset which were not playing any significant role in price prediction and may also decrease the accuracy of the model.
 
 2. **`Exploratory Data Analysis (EDA)`** : Explored the Dataset and visualize the graph depicting the relation of each feature with the price.
 
 3. **`Feature Engineering`** : As the data were not in proper format for training so converted that in the proper form so that it will be easy to train the model.
 
-4. **`Training the Model`** : Trained the model by creating the Training Pipeline consisting of Scaling the numeric features and One hot encdoing the Categorical Features and then finally trained the model using various Machine learning Algorithms.
+4. **`Training the Model`** : Trained the model by creating the Training Pipeline consisting of Scaling the numeric features and One hot encoding the Categorical Features and then finally trained the model using various Machine learning Algorithms.
       * Linear Regression
       * Ridge and Lasso Regression
       * KNN Regressor
